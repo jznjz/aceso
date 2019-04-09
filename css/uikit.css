@@ -3818,8 +3818,8 @@ ul.uk-nav-sub {
  * Items
  */
 .uk-nav-primary > li > a {
-  font-size: 1.5rem;
-  line-height: 1.5;
+  font-size: 1.2rem;
+  line-height: 1.7;
   color: #999;
 }
 /* Hover + Focus */
