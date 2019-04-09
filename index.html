@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aceso</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+    
+ <!--   <button class="uk-button uk-button-default uk-margin-small-right hamburger hamburger--spin" type="button" uk-toggle="target: #offcanvas-nav-primary"><span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span></button>-->
+  
+  <nav class="uk-navbar-container" uk-navbar uk-sticky="show-on-up: true; animation: uk-animation-slide-top; bottom: #bottom">
+    <div class="uk-navbar-left">
+
+        <ul class="uk-navbar-nav">
+            <a class="uk-navbar-item uk-logo uk-visible@m" href="#"><img src="img/Asset%201xxhdpi.png" style="max-height: 50px; padding-left: 150px"></a>
+            <a class="uk-navbar-item uk-logo uk-hidden@m" href="#"><img src="img/Asset%201xxhdpi.png" style="max-height: 50px"></a>
+            
+        </ul>
+
+    </div>
+    <div class="uk-navbar-right uk-visible@m" style="padding-top: 15px">
+
+        <ul class="uk-navbar-nav" style="padding-right: 100px">
+           
+            <li><a href="#">关于</a></li>
+            <li>
+                <a href="#">领域</a>
+                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3" uk-dropdown="offset: 0; pos: bottom-center">
+                    <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">卓越的行业解决方案</a></li>
+                                <li class="uk-nav-divider"></li>
+                                <li><a href="#">医疗决策支持解决方案 (一)</a></li>
+                                <li><a href="#">医疗决策支持解决方案 (二)</a></li>
+                                <li><a href="#">医疗保险解决方案 (一)</a></li>
+                                <li><a href="#">医疗保险解决方案 (二)</a></li>
+                                <li><a href="#">医药保险解决方案 (一)</a></li>
+                        <li><a href="#">医药保险解决方案 (二)</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-nav-header"><a href="#">敏锐利的观察分析</a></li>
+                                <li class="uk-nav-header"><a href="#">广博细微的专业观点</a></li>
+                                <li class="uk-nav-header"><a href="#">坚实高效的技术支持</a></li>
+                                <li class="uk-nav-header"><a href="#">因人而异的精准培训</a></li>
+                                <li class="uk-nav-header"><a href="#">丰富的知识库</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#">愿景</a></li>
+            <li><a href="#">见解</a></li>
+            <li><a href="#">职能</a></li>
+            <li><a href="#">联系</a></li>
+        </ul>
+    </div>
+    <div class="uk-navbar-right uk-hidden@m" style="padding-top: 15px">
+
+        <a class="uk-navbar-toggle" uk-navbar-toggle-icon data-uk-toggle href="#offcanvas-nav-primary"></a>
+    </div>
+</nav>
+
+<div id="offcanvas-nav-primary" uk-offcanvas="overlay: true; flip: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul id="mobilenav" class="uk-nav-primary uk-nav-parent-icon " uk-nav>
+        <li class="uk-active"><a href="#">关于</a></li>
+
+        <li class="uk-parent">
+            <a href="#">领域</a>
+            <ul class="uk-nav-sub">
+                <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+
+        <li class="uk-parent">
+            <a href="#">行业解决方案</a>
+            <ul class="uk-nav-sub">
+                <li><a href="#">Sub item</a></li>
+                <li><a href="#">Sub item</a></li>
+                <li><a href="#">Sub item</a></li>
+                <li><a href="#">Sub item</a></li>
+                <li><a href="#">Sub item</a></li>
+                <li><a href="#">Sub item</a></li>
+            </ul>
+        </li>
+    </ul>
+            <ul class="uk-nav-sub">
+                <li><a href="#">Sub item</a></li>
+                <li>
+                    <a href="#">Sub item</a>
+                </li>
+            </ul>
+            </ul>
+        </li>
+        
+        
+    <li class="uk-active"><a href="#">愿景</a></li> 
+    <li class="uk-active"><a href="#">见解</a></li>
+    <li class="uk-active"><a href="#">职能</a></li>  
+    <li class="uk-active"><a href="#">联系</a></li>  
+    </ul>
+
+    </div>
+</div>
+
+  <div uk-slideshow="animation: push">
+
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+        <ul class="uk-slideshow-items" uk-height-viewport="offset-top: true; offset-bottom: 10">
+            <li>
+                <img src="img/shutterstock_582412642.jpg" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="img/shutterstock_582412642.jpg" alt="" uk-cover>
+            </li>
+            <li>
+                <img src="img/shutterstock_582412642.jpg" alt="" uk-cover>
+            </li>
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+   <div class="uk-position-bottom-center uk-position-small" style="padding-bottom: 10px">
+            <ul class="uk-dotnav">
+                <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+                <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+                <li uk-slideshow-item="2"><a href="#">Item 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+   
+   <div class="uk-child-width-1-2@m" uk-grid style="padding: 20px">
+    <div>
+        <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top" >
+                <img src="img/shutterstock_277930070.jpg" alt="">
+            </div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+                <img src="img/shutterstock_154233629.jpg" alt="">
+            </div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Media Top</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+    </div>
+</div>
+   
+   
+   
+    <script>
+  // Look for .hamburger
+  var hamburger = document.querySelector(".hamburger");
+  // On click
+  hamburger.addEventListener("click", function() {
+    // Toggle class "is-active"
+    hamburger.classList.toggle("is-active");
+    // Do something else, like open/close menu
+  });
+</script>
+    </body>
+</html>
