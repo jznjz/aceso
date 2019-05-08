@@ -8,10 +8,12 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  * 3. Style
  */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC');
+
 html {
   /* 1 */
   font-family: 'Noto Sans SC', sans-serif;
-  font-size: 16px;
+  
   font-weight: normal;
   line-height: 1.5;
   /* 2 */
@@ -19,12 +21,14 @@ html {
   /* 3 */
   background: #fff;
   color: #666;
+margin: 0;
 }
 /*
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0;
+  margin:0;
+  padding:0;
 }
 /* Links
  ========================================================================== */
@@ -279,7 +283,7 @@ h6,
  */
 h1,
 .uk-h1 {
-  font-size: 2.23125rem;
+  font-size: 1em;
   line-height: 1.2;
 }
 h2,
@@ -311,7 +315,8 @@ h6,
 @media (min-width: 960px) {
   h1,
   .uk-h1 {
-    font-size: 2.625rem;
+    font-size: 2em;
+      font-weight: 700;
   }
   h2,
   .uk-h2 {
@@ -2890,7 +2895,7 @@ select.uk-form-width-xsmall {
 .uk-card-default {
   background: #fff;
   color: #666;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .uk-card-default .uk-card-title {
   color: #333;
@@ -2984,7 +2989,7 @@ select.uk-form-width-xsmall {
   padding-right: 30px;
 }
 .uk-card-body .uk-nav-default .uk-nav-sub {
-  padding-left: 45px;
+  padding-left: 0px;
 }
 /* Desktop and bigger */
 @media (min-width: 1200px) {
@@ -3003,7 +3008,7 @@ select.uk-form-width-xsmall {
     padding-right: 40px;
   }
   .uk-card-body .uk-nav-default .uk-nav-sub {
-    padding-left: 55px;
+    padding-left: 0px;
   }
 }
 /*
@@ -3024,7 +3029,7 @@ select.uk-form-width-xsmall {
   padding-right: 20px;
 }
 .uk-card-small .uk-nav-default .uk-nav-sub {
-  padding-left: 35px;
+  padding-left: 0px;
 }
 /*
      * Large
@@ -3724,12 +3729,15 @@ select.uk-form-width-xsmall {
  */
 ul.uk-nav-sub {
   padding: 5px 0 5px 15px;
+    background-color: rgb(250,250,250);
+    margin-right: 10px;
+    border-radius: 8px;
 }
 /*
  * Level 3 and deeper
  */
 .uk-nav-sub ul {
-  padding-left: 15px;
+  padding-left: 0px;
 }
 /*
  * Items
@@ -3770,11 +3778,11 @@ ul.uk-nav-sub {
 /* Default modifier
  ========================================================================== */
 .uk-nav-default {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .uk-nav-default > li > ul {
-  font-size: 0.7rem;
+  
 }
 /*
  * Items
@@ -4000,8 +4008,9 @@ ul.uk-nav-sub {
   min-height: 80px;
   padding: 0 25px;
   /* 3 */
-  font-size: 0.875rem;
+  font-size: 1.1em;
   font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 600;
   /* 4 */
   text-decoration: none;
 }
@@ -4009,7 +4018,7 @@ ul.uk-nav-sub {
  * Nav items
  */
 .uk-navbar-nav > li > a {
-  color: #999;
+  color: #888;
   text-transform: uppercase;
   transition: 0.1s ease-in-out;
   transition-property: color, background-color;
@@ -4021,16 +4030,16 @@ ul.uk-nav-sub {
 .uk-navbar-nav > li:hover > a,
 .uk-navbar-nav > li > a:focus,
 .uk-navbar-nav > li > a.uk-open {
-  color: #666;
+  color: #2E8965;
   outline: none;
 }
 /* OnClick */
 .uk-navbar-nav > li > a:active {
-  color: #333;
+  color: #2E8965;
 }
 /* Active */
 .uk-navbar-nav > li.uk-active > a {
-  color: #333;
+  color: #2E8965;
 }
 /* Item
  ========================================================================== */
@@ -5481,6 +5490,7 @@ ul.uk-nav-sub {
  */
 .uk-sticky[class*='uk-animation-'] {
   animation-duration: 0.2s;
+    
 }
 .uk-sticky.uk-animation-reverse {
   animation-duration: 0.2s;
