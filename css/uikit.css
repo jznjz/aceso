@@ -3773,10 +3773,10 @@ ul.uk-nav-sub > ul > li > .uk-nav-sub {
 .uk-nav-header {
   padding: 5px 0;
   text-transform: uppercase;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 .uk-nav-header:not(:first-child) {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 /* Divider
  ========================================================================== */
@@ -4097,6 +4097,7 @@ ul.uk-nav-sub > ul > li > .uk-nav-sub {
   /* 3 */
   box-sizing: border-box;
   width: 200px;
+    border-radius: 10px;
   /* 4 */
   padding: 25px;
   background: #fff;
@@ -4169,7 +4170,7 @@ ul.uk-nav-sub > ul > li > .uk-nav-sub {
  * Adopts `uk-nav`
  ========================================================================== */
 .uk-navbar-dropdown-nav {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 /*
  * Items

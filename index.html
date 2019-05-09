@@ -33,11 +33,11 @@
             <li class="hvr-underline-from-center uk-active"><a href="#">关于</a></li>
             <li >
                 <a href="#">领域</a>
-                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-3" uk-dropdown="offset: 0; pos: bottom-center">
+                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2" uk-dropdown="offset: 0; pos: bottom-center; animation: uk-animation-slide-top-small; duration: 400; delay-hide: 200;">
                     <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
                         <div>
                             <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li class="uk-active"><a href="#">卓越的行业解决方案</a></li>
+                                <li class="uk-active"><a href="#">行业解决方案</a></li>
                                 <li class="uk-nav-divider"></li>
                                 <li><a href="#">医疗决策</a></li>
                                 <li><a href="#">医疗保险</a></li>
@@ -47,11 +47,11 @@
                         </div>
                         <div>
                             <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li class="uk-nav-header"><a href="#">敏锐利的观察分析</a></li>
-                                <li class="uk-nav-header"><a href="#">广博细微的专业观点</a></li>
-                                <li class="uk-nav-header"><a href="#">坚实高效的技术支持</a></li>
-                                <li class="uk-nav-header"><a href="#">因人而异的精准培训</a></li>
-                                <li class="uk-nav-header"><a href="#">丰富的知识库</a></li>
+                                <li class="uk-nav-header"><a href="#">观察分析</a></li>
+                                <li class="uk-nav-header"><a href="#">专业观点</a></li>
+                                <li class="uk-nav-header"><a href="#">技术支持</a></li>
+                                <li class="uk-nav-header"><a href="#">精准培训</a></li>
+                                <li class="uk-nav-header"><a href="#">知识库</a></li>
                             </ul>
                         </div>
                     </div>
@@ -165,7 +165,7 @@
 
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center: true; autoplay: true; autoplay-interval: 2000;pause-on-hover: true" style="">
 
-    <ul class="uk-slider-items uk-grid">
+    <ul class="uk-slider-items uk-grid-match uk-grid">
         <li class="uk-width-3-4 uk-width-2-5@m">
             <div class="uk-panel">
                 <img src="img/shutterstock_582412642.jpg" alt="">
@@ -187,8 +187,8 @@
             </div>
         </li>
         <li class="uk-width-3-4 uk-width-2-5@m">
-            <div class="uk-panel">
-                <img src="img/shutterstock_154233629.jpg" alt="">
+            <div class="uk-panel uk-cover-container">
+                <img src="img/shutterstock_154233629.jpg" alt="" uk-cover>
                 <div class="uk-position-center uk-panel"><h1>4</h1></div>
             </div>
         </li>
@@ -204,8 +204,8 @@
     <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
 </div>
-   
-<div class="uk-section uk-section-muted">
+
+<div class="uk-section uk-section-muted" style="margin-top: 5%;">
     <div class="uk-container">
 
         <h3>Section</h3>
