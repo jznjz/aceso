@@ -222,6 +222,9 @@ button:hover span::before, button:hover span::after{
     text-align: center;
 
 }
+.svg1{
+    width: 200px;
+}
 @media (min-width: 1280px){
 .bg1{
     grid-column: 1 / 13;
@@ -258,5 +261,8 @@ button:hover span::before, button:hover span::after{
     span{
   display: block;
   padding: 15px 55px;
+}
+    .svg1{
+    width: 300px;
 }
     }
