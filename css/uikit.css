@@ -283,12 +283,13 @@ h6,
  */
 h1,
 .uk-h1 {
-  font-size: 1em;
+  font-size: 1.8em;
   line-height: 1.2;
+    font-weight: 700;
 }
 h2,
 .uk-h2 {
-  font-size: 1.7rem;
+  font-size: 1.1rem;
   line-height: 1.3;
 }
 h3,
@@ -320,7 +321,7 @@ h6,
   }
   h2,
   .uk-h2 {
-    font-size: 2rem;
+    font-size: 1.1rem;
   }
 }
 /* Lists
@@ -3736,6 +3737,13 @@ ul.uk-nav-sub {
 /*
  * Level 3 and deeper
  */
+ul.uk-nav-sub > ul > li > .uk-nav-sub {
+
+    background-color: rgb(240,240,240);
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
 .uk-nav-sub ul {
   padding-left: 0px;
 }
@@ -3778,7 +3786,7 @@ ul.uk-nav-sub {
 /* Default modifier
  ========================================================================== */
 .uk-nav-default {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .uk-nav-default > li > ul {
@@ -3816,6 +3824,7 @@ ul.uk-nav-sub {
  */
 .uk-nav-default .uk-nav-sub a {
   color: #999;
+    
 }
 .uk-nav-default .uk-nav-sub a:hover,
 .uk-nav-default .uk-nav-sub a:focus {
