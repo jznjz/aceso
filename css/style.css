@@ -205,13 +205,13 @@ button:hover span::before, button:hover span::after{
 }
 .bg1{
     grid-column: 1 / 13;
-    grid-row: 6 / 13;
+    grid-row: 7 / 13;
     
     width: 100%;
 }
 .bg2{
     grid-column: 1 / 13;
-    grid-row: 7 / 11;
+    grid-row: 8 / 13;
 
     opacity: 0.1;
 }
