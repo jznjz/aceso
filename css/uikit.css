@@ -30,6 +30,7 @@ body {
   margin:0;
   padding:0;
 }
+
 /* Links
  ========================================================================== */
 /*
@@ -64,14 +65,14 @@ a:hover {
  */
 a,
 .uk-link {
-  color: #1e87f0;
+  color: none;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover,
 .uk-link:hover {
-  color: #0f6ecd;
-  text-decoration: underline;
+  color: none;
+  text-decoration: none;
 }
 /* Text-level semantics
  ========================================================================== */
@@ -294,8 +295,9 @@ h2,
 }
 h3,
 .uk-h3 {
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   line-height: 1.4;
+    font-weight: 700;
 }
 h4,
 .uk-h4 {
@@ -323,8 +325,14 @@ h6,
   .uk-h2 {
     font-size: 1.1rem;
   }
+    h3,
+.uk-h3 {
+  font-size: 4.5rem;
+  line-height: 1.4;
+    font-weight: 700;
 }
-/* Lists
+}
+/* Listss
  ========================================================================== */
 ul,
 ol {
@@ -4181,7 +4189,7 @@ ul.uk-nav-sub > ul > li > .uk-nav-sub {
 /* Hover + Focus */
 .uk-navbar-dropdown-nav > li > a:hover,
 .uk-navbar-dropdown-nav > li > a:focus {
-  color: #666;
+  color: #2E8965;
 }
 /* Active */
 .uk-navbar-dropdown-nav > li.uk-active > a {
@@ -4931,9 +4939,9 @@ ul.uk-nav-sub > ul > li > .uk-nav-sub {
   z-index: 1020;
   /* 3 */
   box-sizing: border-box;
-  min-width: 200px;
+  min-width: 280px;
   /* 4 */
-  padding: 25px;
+  padding: 0px;
   background: #fff;
   color: #666;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);

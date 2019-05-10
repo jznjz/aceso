@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aceso</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/aos.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
+    </head>
+    <body>
+    
+ <!--   <button class="uk-button uk-button-default uk-margin-small-right hamburger hamburger--spin" type="button" uk-toggle="target: #offcanvas-nav-primary"><span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span></button>-->
+  
+  <nav class="uk-navbar-container" uk-navbar uk-sticky="show-on-up: true; animation: uk-animation-slide-top; bottom: #bottom">
+    <div class="uk-navbar-left">
+
+        <ul class="uk-navbar-nav">
+            <a class="uk-navbar-item uk-logo uk-visible@m" href="index.html"><img src="img/Asset%201xxhdpi.png" style="max-height: 70px; padding-left: 150px;margin-top: 10px;"></a>
+            <a class="uk-navbar-item uk-logo uk-hidden@m" href="index.html"><img src="img/Asset%201xxhdpi.png" style="max-height: 50px"></a>
+            
+        </ul>
+
+    </div>
+    <div class="uk-navbar-right uk-visible@m" style="padding-top: 35px">
+
+        <ul class="uk-navbar-nav" style="padding-right: 100px">
+           
+            <li class="hvr-underline-from-center "><a href="about.html">关于</a></li>
+            <li class="uk-active">
+                <a href="#">领域</a>
+                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-1" uk-dropdown="offset: 0; pos: bottom-center; animation: uk-animation-slide-top-small; duration: 400; delay-hide: 200;">
+                    <div class="uk-navbar-dropdown-grid uk-child-width-1-1" uk-grid>
+                        <div>
+                            <ul class="uk-nav uk-navbar-dropdown-nav" style="padding: 25px">
+                                <li style="color: rgb(190,190,190)">行业解决方案</li>
+                                <li class="uk-nav-divider"></li>
+                                <li style="margin-top: 20px"><img src="img/SVG/m1.svg" uk-svg uk-svg="stroke-animation: true" style=" height: 40px"><a href="system.html" style="display: inline; font-weight: 700">医疗决策</a></li>
+                                <li style="margin-top: 20px"><img src="img/SVG/m2.svg" uk-svg uk-svg="stroke-animation: true" style=" height: 40px"><a href="insurance.html" style="display: inline;font-weight: 700">医疗保险</a></li>
+                                <li style="margin-top: 20px"><img src="img/SVG/m3.svg" uk-svg uk-svg="stroke-animation: true" style=" height: 40px"><a href="medical.html" style="display: inline;font-weight: 700">医药行业</a></li>
+                     
+                            </ul>
+                        </div>
+                       
+                    </div>
+                    <div style="background-color: rgb(250,250,250); margin: 0px; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px ">
+                      
+                        <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+    <div>
+        <div style="padding-left: 20px; padding-top: 10px; padding-bottom: 10px">
+        <ul class="uk-nav uk-navbar-dropdown-nav" style="">
+                                <li class="uk-nav-header"><a href="analysis.html">观察分析 <span uk-icon="icon: arrow-right"></span></a></li>
+                                <li class="uk-nav-header"><a href="view.html">专业观点<span uk-icon="icon: arrow-right"></span></a></li>
+                                <li class="uk-nav-header"><a href="support.html">技术支持<span uk-icon="icon: arrow-right"></span></a>
+                            </ul>
+        </div>
+    </div>
+    <div>
+        <div style="padding-right: 20px; padding-top: 10px; padding-bottom: 10px">
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                
+                                <li class="uk-nav-header"><a href="training.html">精准培训 <span uk-icon="icon: arrow-right"></span></a></li>
+                                <li class="uk-nav-header uk-active"><a href="knowledge.html">知识库<span uk-icon="icon: arrow-right"></span></a></li>
+                            </ul>
+        </div>
+    </div>
+</div>
+                    </div>
+                    
+                </div>
+            </li>
+            <li class="hvr-underline-from-center"><a href="vision.html">愿景</a></li>
+            <li class="hvr-underline-from-center"><a href="understanding.html">见解</a></li>
+            <li class="hvr-underline-from-center"><a href="profession.html">职能</a></li>
+            <li class="hvr-underline-from-center"><a href="contact.html">联系</a></li>
+        </ul>
+    </div>
+    <div class="uk-navbar-right uk-hidden@m" style="padding-top: 15px">
+
+        <a class="uk-navbar-toggle" uk-navbar-toggle-icon data-uk-toggle href="#offcanvas-nav-primary"></a>
+    </div>
+</nav>
+
+<div id="offcanvas-nav-primary" uk-offcanvas="overlay: true; flip: true; mode:reveal">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul id="mobilenav" class="uk-nav-primary uk-nav-parent-icon " uk-nav style="margin-top: 20%">
+        <li><a href="about.html">关于</a></li>
+
+        <li class="uk-parent">
+            <a href="#">领域</a>
+            <ul class="uk-nav-sub">
+                <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+
+        <li class="uk-parent">
+            <a href="#">行业解决方案</a>
+            <ul class="uk-nav-sub">
+                <li><a href="system.html">医疗决策
+</a></li>
+                <li><a href="insurance.html">医疗保险
+</a></li>
+                
+                <li><a href="medical.html">医药行业
+</a></li>
+
+            </ul>
+        </li>
+    </ul>
+            <ul class="uk-nav-sub">
+                <li><a href="analysis.html">观察分析</a></li>
+                <li>
+                    <a href="profession.html">专业观点</a>
+                </li>
+                <li>
+                    <a href="support.html">技术支持</a>
+                </li>
+                <li>
+                    <a href="training.html">精准培训</a>
+                </li>
+                <li>
+                    <a href="knowledge.html">知识库</a>
+                </li>
+            </ul>
+            </ul>
+        </li>
+        
+        
+    <li class="uk-active"><a href="vision.html">愿景</a></li> 
+    <li class="uk-active"><a href="understanding.html">见解</a></li>
+    <li class="uk-active"><a href="profession.html">职能</a></li>  
+    <li class="uk-active"><a href="contact.html">联系</a></li>  
+    </ul>
+
+    </div>
+</div>
+<div class="uk-cover-container mask1" uk-height-viewport="offset-bottom: 30" uk-parallax="y: 150">
+    <img src="img/knowledge.jpg" alt="" uk-cover >
+    
+</div>
+<div class="uk-position-center"><h3>知识库</h3></div>
+<div class="uk-child-width-1-3@m uk-grid-match " uk-grid  style="max-width: 1400px; margin: 0 auto; margin-top: 8%; margin-bottom: 8%">
+    <div>
+        <a href="#"><div class="uk-card uk-card-default uk-card-hover" style="margin-right: 25px" data-aos="fade-in" data-aos-offset="-40" data-aos-easing="ease" data-aos-duration="300" data-aos-anchor-placement="top-center">
+            <div class="uk-card-media-top" style="padding-top: 20%">
+                <img src="img/SVG/Asset%202.svg" alt="" class="uk-align-center svg1" data-aos="fade-up" data-aos-offset="-60" data-aos-easing="ease" data-aos-duration="600" data-aos-anchor-placement="top-center">
+            </div>
+            <div class="uk-card-body" style="text-align: center; padding: 10% 15%">
+            
+        
+        <div style="margin-top: 10px; font-weight: 700">医院服务项目组合规划<span uk-icon="icon: arrow-right; ratio:2"></span></div>
+            </div>
+        </div></a>
+    </div>
+    <div>
+        <a href="#"><div class="uk-card uk-card-default uk-card-hover" style="margin-right: 25px" data-aos="fade-in" data-aos-offset="-40" data-aos-easing="ease" data-aos-duration="300" data-aos-anchor-placement="top-center">
+            <div class="uk-card-media-top" style="padding-top: 20%">
+                <img src="img/SVG/Asset%202.svg" alt="" class="uk-align-center svg1" data-aos="fade-up" data-aos-offset="-60" data-aos-easing="ease" data-aos-duration="600" data-aos-anchor-placement="top-center">
+            </div>
+            <div class="uk-card-body" style="text-align: center; padding: 10% 15%">
+            
+        
+        <div style="margin-top: 10px; font-weight: 700">医疗流程规划
+<span uk-icon="icon: arrow-right; ratio:2"></span></div>
+            </div>
+        </div></a>
+    </div>
+    <div>
+        <a href="#"><div class="uk-card uk-card-default uk-card-hover" style="margin-right: 25px" data-aos="fade-in" data-aos-offset="-40" data-aos-easing="ease" data-aos-duration="300" data-aos-anchor-placement="top-center">
+            <div class="uk-card-media-top" style="padding-top: 20%">
+                <img src="img/SVG/Asset%202.svg" alt="" class="uk-align-center svg1" data-aos="fade-up" data-aos-offset="-60" data-aos-easing="ease" data-aos-duration="600" data-aos-anchor-placement="top-center">
+            </div>
+            <div class="uk-card-body" style="text-align: center; padding: 10% 15%">
+            
+        
+        <div style="margin-top: 10px; font-weight: 700">医疗服务标杆管理解决方案
+<span uk-icon="icon: arrow-right; ratio:2"></span></div>
+            </div>
+        </div></a>
+    </div>
+    <div>
+        <a href="#"><div class="uk-card uk-card-default uk-card-hover" style="margin-right: 25px" data-aos="fade-in" data-aos-offset="-40" data-aos-easing="ease" data-aos-duration="300" data-aos-anchor-placement="top-center">
+            <div class="uk-card-media-top" style="padding-top: 20%">
+                <img src="img/SVG/Asset%202.svg" alt="" class="uk-align-center svg1" data-aos="fade-up" data-aos-offset="-60" data-aos-easing="ease" data-aos-duration="600" data-aos-anchor-placement="top-center">
+            </div>
+            <div class="uk-card-body" style="text-align: center; padding: 10% 15%">
+            
+        
+        <div style="margin-top: 10px; font-weight: 700">医院服务项目组合规划<span uk-icon="icon: arrow-right; ratio:2"></span></div>
+            </div>
+        </div></a>
+    </div>
+    <div>
+        <a href="#"><div class="uk-card uk-card-default uk-card-hover" style="margin-right: 25px" data-aos="fade-in" data-aos-offset="-40" data-aos-easing="ease" data-aos-duration="300" data-aos-anchor-placement="top-center">
+            <div class="uk-card-media-top" style="padding-top: 20%">
+                <img src="img/SVG/Asset%202.svg" alt="" class="uk-align-center svg1" data-aos="fade-up" data-aos-offset="-60" data-aos-easing="ease" data-aos-duration="600" data-aos-anchor-placement="top-center">
+            </div>
+            <div class="uk-card-body" style="text-align: center; padding: 10% 15%">
+            
+        
+        <div style="margin-top: 10px; font-weight: 700">医院服务项目组合规划<span uk-icon="icon: arrow-right; ratio:2"></span></div>
+            </div>
+        </div></a>
+    </div>
+    <div>
+        <a href="#"><div class="uk-card uk-card-default uk-card-hover" style="margin-right: 25px" data-aos="fade-in" data-aos-offset="-40" data-aos-easing="ease" data-aos-duration="300" data-aos-anchor-placement="top-center">
+            <div class="uk-card-media-top" style="padding-top: 20%">
+                <img src="img/SVG/Asset%202.svg" alt="" class="uk-align-center svg1" data-aos="fade-up" data-aos-offset="-60" data-aos-easing="ease" data-aos-duration="600" data-aos-anchor-placement="top-center">
+            </div>
+            <div class="uk-card-body" style="text-align: center; padding: 10% 15%">
+            
+        
+        <div style="margin-top: 10px; font-weight: 700">医院服务项目组合规划<span uk-icon="icon: arrow-right; ratio:2"></span></div>
+            </div>
+        </div></a>
+    </div>
+</div>
+
+
+
+
+    <div class="uk-section uk-section-muted" style="margin-top: 5%;">
+        <div class="uk-container">
+
+            <div class=" uk-child-width-1-3@m" uk-grid style="margin: 0 auto">
+                <div class="uk-flex uk-flex-center">
+                    <p>Aceso Co.,Ltd</p>
+                </div>
+                <div class="uk-flex uk-flex-center">
+                    <p>Copyright © 2019 All Rights Reserved</p>
+                </div>
+                <div class="uk-flex uk-flex-center">
+                <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                <a href="" class="uk-icon-button" uk-icon="google-plus"></a>
+                <a href="" class="uk-icon-button" uk-icon="linkedin"></a>
+                <a href="" class="uk-icon-button" uk-icon="mail"></a>
+                <a href="" class="uk-icon-button" uk-icon="receiver"></a>
+            </div>
+                
+            </div>
+        </div>
+    </div>
+   
+   <script src="js/anime.min.js"></script>
+   <script src="js/aos.js"></script>
+   <script src="js/jquery-3.3.1.min.js"></script>
+   
+   <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+    <script>
+  // Look for .hamburger
+  var hamburger = document.querySelector(".hamburger");
+  // On click
+  hamburger.addEventListener("click", function() {
+    // Toggle class "is-active"
+    hamburger.classList.toggle("is-active");
+    // Do something else, like open/close menu
+  });
+</script>
+   
+   <script>
+        anime({
+  targets: '.bg2',
+  opacity: 1,
+  translateY: -40,
+  duration: 1500,
+  easing: 'spring(1, 80, 7, 2)',
+  loop: false,
+});
+        </script>
+
+   
+   
+    </body>
+</html>
