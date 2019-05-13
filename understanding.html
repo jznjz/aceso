@@ -138,6 +138,7 @@
 
     </div>
 </div>
+<div id="main">
 <div class="uk-cover-container mask1" uk-height-viewport="offset-bottom: 30" uk-parallax="y: 150">
     <img src="img/understandingbg.jpg" alt="" uk-cover >
     
@@ -219,7 +220,7 @@
         </div></a>
     </div>
 </div>
-
+        </div>
 
 
 
@@ -249,7 +250,12 @@
    <script src="js/anime.min.js"></script>
    <script src="js/aos.js"></script>
    <script src="js/jquery-3.3.1.min.js"></script>
-   
+    <script src="js/jquery.smoothState.js"></script>
+<script>
+    $(function() {
+  $('#main').smoothState();
+});
+    </script>
    <script>
         AOS.init({
             once: true,

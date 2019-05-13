@@ -140,6 +140,8 @@
 
         </div>
     </div>
+    
+    <div id="main">
     <div uk-height-viewport class="hero">
         <img src="img/h_bg1.png" class="bg1">
         <img src="img/Group%203.svg" class="bg2">
@@ -158,11 +160,11 @@
     <div class="uk-child-width-1-2@m" uk-grid uk-grid-match style="max-width: 1400px; margin: 0 auto; margin-bottom: 8%">
         <div>
             <a href="insurance.html">
-                <div class="uk-card uk-card-default uk-card-hover" style="margin-right: 25px" data-aos="fade-in" data-aos-offset="-40" data-aos-easing="ease" data-aos-duration="300" data-aos-anchor-placement="top-center">
+                <div class="uk-card uk-card-default uk-card-hover" style="margin-right: 25px" data-aos="fade-in" data-aos-offset="-80" data-aos-easing="ease" data-aos-duration="300" data-aos-anchor-placement="top-center">
                     <div class="uk-card-media-top" style="padding-top: 20%">
-                        <img src="img/SVG/Asset%202.svg" alt="" class="uk-align-center svg1" data-aos="fade-up" data-aos-offset="-60" data-aos-easing="ease" data-aos-duration="600" data-aos-anchor-placement="top-center">
+                        <img src="img/SVG/Asset%202.svg" alt="" class="uk-align-center svg1" data-aos="fade-up" data-aos-offset="-120" data-aos-easing="ease" data-aos-duration="600" data-aos-anchor-placement="top-center">
                     </div>
-                    <div class="uk-card-body" style="text-align: center; padding: 10% 15%" data-aos="fade-in" data-aos-offset="-80" data-aos-easing="ease" data-aos-duration="1200" data-aos-anchor-placement="top-center">
+                    <div class="uk-card-body" style="text-align: center; padding: 10% 15%" data-aos="fade-in" data-aos-offset="-120" data-aos-easing="ease" data-aos-duration="1200" data-aos-anchor-placement="top-center">
                         <h1>医疗保险 <span uk-icon="icon: arrow-right; ratio:2"></span></h1>
 
                         <div style="margin-top: 50px">医疗、护理、卫生管理领域以及完善优化医疗保险支付体系，专业周全的信息咨询、支持服务。</div>
@@ -172,11 +174,11 @@
         </div>
         <div>
             <a href="medical.html">
-                <div class="uk-card uk-card-default uk-card-hover" style="margin-right: 25px" data-aos="fade-in" data-aos-offset="-40" data-aos-easing="ease" data-aos-duration="300" data-aos-anchor-placement="top-center">
+                <div class="uk-card uk-card-default uk-card-hover" style="margin-right: 25px" data-aos="fade-in" data-aos-offset="-80" data-aos-easing="ease" data-aos-duration="300" data-aos-anchor-placement="top-center">
                     <div class="uk-card-media-top" style="padding-top: 20%">
-                        <img src="img/SVG/Asset%203.svg" alt="" class="uk-align-center svg1" data-aos="fade-up" data-aos-offset="-80" data-aos-easing="ease" data-aos-duration="600" data-aos-anchor-placement="top-center">
+                        <img src="img/SVG/Asset%203.svg" alt="" class="uk-align-center svg1" data-aos="fade-up" data-aos-offset="-120" data-aos-easing="ease" data-aos-duration="600" data-aos-anchor-placement="top-center">
                     </div>
-                    <div class="uk-card-body" style="text-align: center; padding: 10% 15%" data-aos="fade-in" data-aos-offset="-100" data-aos-easing="ease" data-aos-duration="1200" data-aos-anchor-placement="top-center">
+                    <div class="uk-card-body" style="text-align: center; padding: 10% 15%" data-aos="fade-in" data-aos-offset="-120" data-aos-easing="ease" data-aos-duration="1200" data-aos-anchor-placement="top-center">
                         <h1>医药行业 <span uk-icon="icon: arrow-right; ratio:2"></span></h1>
 
                         <div style="margin-top: 50px">医疗、护理、卫生管理领域以及完善优化医疗保险支付体系，专业周全的信息咨询、支持服务。</div>
@@ -204,7 +206,7 @@
             <li class="uk-width-3-4 uk-width-2-5@m">
                 <a href="#">
                     <div class="uk-panel">
-                        <img src="img/shutterstock_277930070.jpg" alt="">
+                        <img src="img/shutterstock_582412642.jpg" alt="">
                         <div class="uk-overlay uk-overlay-default uk-position-bottom" style="color: black">
                             <div style="font-size: 1.2rem;font-weight: 700">新闻标题2 - 2019年5月09日</div>
                             <div style="font-size: 1rem;font-weight: 300">新闻内容新闻内容新闻内容新闻内容……</div>
@@ -251,7 +253,7 @@
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
 
     </div>
-
+</div>
     <div class="uk-section uk-section-muted" style="margin-top: 5%;">
         <div class="uk-container">
 
@@ -278,7 +280,12 @@
     <script src="js/anime.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
-
+    <script src="js/jquery.smoothState.js"></script>
+<script>
+    $(function() {
+  $('#main').smoothState();
+});
+    </script>
     <script>
         AOS.init({
             once: true,
